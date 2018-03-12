@@ -11,6 +11,11 @@
 
     <artifactId>main-app</artifactId>
     <dependencies>
+        <dependency>
+            <groupId>jf-9-homework</groupId>
+            <artifactId>doc-generator</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 

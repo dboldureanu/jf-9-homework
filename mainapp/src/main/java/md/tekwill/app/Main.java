@@ -5,6 +5,6 @@ import md.tekwill.GenerateDocument;
 public class Main {
     public static void main(String... args) throws Exception {
         GenerateDocument generateDocument = new GenerateDocument();
-        generateDocument.generateDocument("Benjamin Sisko", "BenjaminSisko.jpg", "Output.docx");
+        generateDocument.generateDocument("Linus Torvalds", "Linus_Torvalds.png", "Output.docx");
     }
 }

@@ -1,6 +1,8 @@
 package md.tekwill;
 
+import com.sun.prism.paint.Color;
 import org.apache.poi.util.Units;
+import org.apache.poi.xssf.usermodel.XSSFColor;
 import org.apache.poi.xwpf.usermodel.*;
 
 import java.io.FileOutputStream;
@@ -18,12 +20,12 @@ public class GenerateDocument {
 
             XWPFRun r1 = p1.createRun();
             r1.setBold(true);
+            r1.setColor("4c7f18");
             r1.setText("Hello, " + yourName);
             r1.setBold(true);
             r1.setFontFamily("Arial");
-            r1.setFontSize(20);
+            r1.setFontSize(50);
             r1.setTextPosition(100);
-
             // ----------
             // Adding image
             // ----------
